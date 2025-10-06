@@ -1,0 +1,38 @@
+functions:
+  mcp_tool_a:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:8080/sse"
+    mcp_tool_name: tool_a
+  mcp_tool_b:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:8080/sse"
+    mcp_tool_name: tool_b
+  mcp_tool_c:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:8080/sse"
+    mcp_tool_name: tool_c   
+
+
+functions:
+  calculator_multiply:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:9901/sse"
+    mcp_tool_name: calculator_multiply
+    description: "Returns the product of two numbers"
+  calculator_inequality:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:9901/sse"
+    mcp_tool_name: calculator_inequality
+    description: "Returns the inequality of two numbers"
+  calculator_divide:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:9901/sse"
+    mcp_tool_name: calculator_divide
+    description: "Returns the quotient of two numbers"
+  current_datetime:
+    _type: current_datetime
+  calculator_subtract:
+    _type: mcp_tool_wrapper
+    url: "http://localhost:9901/sse"
+    mcp_tool_name: calculator_subtract
+    description: "Returns the difference of two numbers"
